@@ -2,7 +2,7 @@ import React from 'react';
 import fitness from './Images/fitness.jpeg';
 import realtor from './Images/realtor.jpeg';
 import hopeservice from './Images/hopeservice.webp';
-import recipe from './Images/recipe.jpeg';
+
 
 function Portfolio() {
   return (
@@ -13,14 +13,7 @@ function Portfolio() {
         web development, design, and beyond. Each project reflects my passion
         for creating impactful and innovative web and digital experiences.
       </p>
-      <div className="portfolio__grid">
-        <div className="portfolio__card">
-          <img src={recipe} alt="portfolio" />
-          <div className="portfolio__details">
-            <h3>Restaurant website</h3>
-            <a  style={{ color: 'orange', textDecoration: 'none' }} href="https://ibrahim0905.github.io/recipe/" target="_blank" rel="noopener noreferrer">Live Demo</a>
-          </div>
-        </div>
+    
         <div className="portfolio__card">
           <img src={realtor} alt="portfolio" />
           <div className="portfolio__details">
